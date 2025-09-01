@@ -1,0 +1,15 @@
+* {
+    background-color: rgb(199, 248, 248);
+}
+
+h1 {
+    text-align: center;
+}
+
+#task-style {
+    padding-left: 50px;
+}
+
+#inp-btn-style {
+    padding-left: 20px;
+}
