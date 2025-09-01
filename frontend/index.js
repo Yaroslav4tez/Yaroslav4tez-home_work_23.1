@@ -1,4 +1,4 @@
-const API = "http://localhost:5555/tasks";
+const API = "https://yaroslav4tez-home-work-23-1-1.onrender.com/tasks";
 const ul = document.getElementById("task");
 const btnMore = document.getElementById("btnMore");
 const inpTask = document.getElementById("inpTask");
