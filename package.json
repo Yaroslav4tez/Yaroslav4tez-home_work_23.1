@@ -7,6 +7,6 @@
     "nodemon": "^3.1.10"
   },
   "scripts": {
-    "start": "nodemon server/index.mjs"
+    "start": "node server/index.mjs"
   }
 }

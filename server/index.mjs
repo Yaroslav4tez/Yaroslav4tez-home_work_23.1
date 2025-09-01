@@ -2,6 +2,7 @@ import express from "express";
 import cors from "cors";
 import tasks from "./tasks.mjs";
 
+const PORT = process.env.PORT || 5555;
 const app = express();
 app.use(cors());
 app.use(express.json());
@@ -47,4 +48,6 @@ app.delete('/tasks/:id', (req, res) => {
   res.status(204).end();
 });
 
-app.listen(5555, () => console.log('server started on http://localhost:5555'));
+app.listen(PORT, () => {
+  console.log(`server started on http://localhost:${PORT}`);
+});
